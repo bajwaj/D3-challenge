@@ -185,47 +185,47 @@ var xLabelsGroup = chartGroup.append("g")
 var povertyLabel = xLabelsGroup.append("text")
 .attr("x", 0)
 .attr("y", 20)
-.attr("value", "poverty") // value to grab for event listener
-.classed("active", true)
+// .attr("value", "poverty") // value to grab for event listener
+// .classed("active", true)
 .text("In Poverty(%)");
 
-var ageLabel = xLabelsGroup.append("text")
-.attr("x", 0)
-.attr("y", 40)
-.attr("value", "age") // value to grab for event listener
-.classed("inactive", true)
-.text("Age (Median)");
+// var ageLabel = xLabelsGroup.append("text")
+// .attr("x", 0)
+// .attr("y", 40)
+// .attr("value", "age") // value to grab for event listener
+// .classed("inactive", true)
+// .text("Age (Median)");
 
-var incomeLabel = xLabelsGroup.append("text")
-.attr("x", 0)
-.attr("y", 60)
-.attr("value", "income") // value to grab for event listener
-.classed("inactive", true)
-.text("Household Income (Median)");
+// var incomeLabel = xLabelsGroup.append("text")
+// .attr("x", 0)
+// .attr("y", 60)
+// .attr("value", "income") // value to grab for event listener
+// .classed("inactive", true)
+// .text("Household Income (Median)");
 
 // Create group for three y-axis labels
 var yLabelsGroup = chartGroup.append("g")
 .attr("transform", "rotate(-90)")
 
-var obesityLabel = yLabelsGroup.append("text")
-.attr("x", -200)
-.attr("y", -80)
-.attr("value", "obesity") // value to grab for event listener
-.classed("active", true)
-.text("Obese(%)");
+// var obesityLabel = yLabelsGroup.append("text")
+// .attr("x", -200)
+// .attr("y", -80)
+// .attr("value", "obesity") // value to grab for event listener
+// .classed("active", true)
+// .text("Obese(%)");
 
-var smokesLabel = yLabelsGroup.append("text")
-.attr("x", -200)
-.attr("y", -60)
-.attr("value", "smokes") // value to grab for event listener
-.classed("inactive", true)
-.text("Smokes(%)");
+// var smokesLabel = yLabelsGroup.append("text")
+// .attr("x", -200)
+// .attr("y", -60)
+// .attr("value", "smokes") // value to grab for event listener
+// .classed("inactive", true)
+// .text("Smokes(%)");
 
 var healthcareLabel = yLabelsGroup.append("text")
-.attr("x", -200)
+.attr("x", -300)
 .attr("y", -40)
-.attr("value", "healthcare") // value to grab for event listener
-.classed("inactive", true)
+// .attr("value", "healthcare") // value to grab for event listener
+// .classed("inactive", true)
 .text("Lacks Healthcare(%)");
 
 // updateToolTip function above csv import
